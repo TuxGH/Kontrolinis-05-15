@@ -1,0 +1,45 @@
+body{
+    height: 100vw;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #151515;
+    color: #EEEEEE;
+}
+
+.mid{
+    text-align: center;
+
+}
+.subbut{
+    width: 10%;
+    background-color: gray;
+    color: #EEEEEE;
+    font-weight: bolder;
+    font-size: 36px;
+}
+.subbut:active{
+    transform: scale(0.94);
+}
+ul{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+li{
+    background: #A91D3A;
+    width: 300px;
+    height: 200px;
+    color: #EEEEEE;
+    font-weight: bolder;
+    font-size: 30px;
+    list-style: none;
+}
+input{
+    width: 15%;
+    font-size: 36px;
+}
